@@ -1,3 +1,4 @@
+/* import */
 /* fuentes */
 /* media queries md - 768px */
 @media (min-width: 768px) {
@@ -14,22 +15,46 @@
   margin: 0;
   padding: 0; }
 
+/* header */
 header h1 {
   font-family: "Roboto Condensed", sans-serif !important;
   font-weight: bolder;
-  font-size: 50px !important; }
+  font-size: 50px !important;
+  text-align: center; }
+
+nav {
+  background-color: #e43131; }
+  nav li a {
+    font-family: "Roboto Condensed", sans-serif !important;
+    font-size: 40px;
+    color: white; }
+
+/* rx */
+h2 {
+  text-align: center; }
+
+p {
+  font-family: "Montserrat", sans-serif !important;
+  font-size: "Montserrat", sans-serif !important; }
+
+.carousel-inner {
+  max-height: 24rem;
+  border-radius: 20px; }
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-weight: bolder;
+  font-size: 40px !important; }
 
 /*.titulo {
     font-family: $fuenteTitulo;
     font-weight: bold;
     font-size: 40px !important;
-}*/
+}
+
 p {
-  font-family: "Montserrat", sans-serif !important; }
-
-.carousel-inner {
-  max-height: 24rem; }
-
+    font-family: $fuenteParrafo;
+}*/
 /* ======= sol ======== */
 .card {
   transition: all 0.3s; }
@@ -39,5 +64,5 @@ p {
 /* ======= form ======== */
 #nosotros {
   padding: 15px;
-  border: solid 5px #a51212;
+  border: solid 5px #e43031;
   border-radius: 15px; }
