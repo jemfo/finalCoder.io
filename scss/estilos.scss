@@ -78,8 +78,32 @@ section {
     }
 }
 
+/* lc */
+
+.lc--p {
+    @extend p; 
+    & {
+        text-align: start;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }    
+}
+
+#lc {
+    img {
+        border-radius: 10px;
+    }
+}
 
 
+/* foo */
+
+.foo--p {
+    @extend .lc--p;
+    & {
+        padding-left: 15px;
+    }
+}
 
 
 

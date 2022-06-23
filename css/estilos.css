@@ -38,7 +38,7 @@ h2 {
   font-size: 35px;
   margin-bottom: 0px; }
 
-p {
+p, .lc--p, .foo--p {
   text-align: center;
   font-family: "Montserrat", sans-serif !important;
   font-size: 0, 5rem !important;
@@ -62,9 +62,22 @@ section {
     .card:hover .card-body {
       background-color: #e43131;
       margin-bottom: 5px; }
-      .card:hover .card-body p {
+      .card:hover .card-body p, .card:hover .card-body .lc--p, .card:hover .card-body .foo--p {
         font-family: "Montserrat", sans-serif !important;
         background-color: white; }
+
+/* lc */
+.lc--p, .foo--p {
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px; }
+
+#lc img {
+  border-radius: 10px; }
+
+/* foo */
+.foo--p {
+  padding-left: 15px; }
 
 /*.titulo {
     font-family: $fuenteTitulo;
