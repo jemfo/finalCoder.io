@@ -26,25 +26,45 @@ nav {
   background-color: #e43131; }
   nav li a {
     font-family: "Roboto Condensed", sans-serif !important;
-    font-size: 40px;
-    color: white; }
+    font-size: 30px;
+    color: white;
+    font-weight: bold; }
 
-/* rx */
+/* h2 - p - Section */
 h2 {
-  text-align: center; }
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-weight: bolder;
+  font-size: 35px;
+  margin-bottom: 0px; }
 
 p {
+  text-align: center;
   font-family: "Montserrat", sans-serif !important;
-  font-size: "Montserrat", sans-serif !important; }
+  font-size: 0, 5rem !important;
+  margin: 0; }
 
+section {
+  margin-top: 5px; }
+
+/* rx */
 .carousel-inner {
   max-height: 24rem;
   border-radius: 20px; }
 
-h2 {
-  font-family: "Roboto Condensed", sans-serif !important;
-  font-weight: bolder;
-  font-size: 40px !important; }
+/* sol */
+.card {
+  border: solid 3px gray;
+  border-style: double;
+  transition: all 0.4s; }
+  .card:hover {
+    transform: scale(1.1); }
+    .card:hover .card-body {
+      background-color: #e43131;
+      margin-bottom: 5px; }
+      .card:hover .card-body p {
+        font-family: "Montserrat", sans-serif !important;
+        background-color: white; }
 
 /*.titulo {
     font-family: $fuenteTitulo;
@@ -55,12 +75,15 @@ h2 {
 p {
     font-family: $fuenteParrafo;
 }*/
-/* ======= sol ======== */
-.card {
-  transition: all 0.3s; }
-  .card:hover {
-    transform: scale(1.1); }
+/* ======= sol ======== 
 
+.card {
+    transition: all 0.3s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}*/
 /* ======= form ======== */
 #nosotros {
   padding: 15px;

@@ -12,33 +12,70 @@
 header h1 {
     font-family: $fuenteTitulo;
     font-weight: bolder;
-    font-size: 50px !important; 
+    font-size: 50px !important;
     text-align: center;
 }
 
 nav {
     background-color: rgb(228, 49, 49);
+
     li a {
         font-family: $fuenteTitulo;
-        font-size: 40px;
+        font-size: 30px;
         color: white;
+        font-weight: bold;
     }
+}
+
+/* h2 - p - Section */
+
+h2 {
+    text-align: center;
+    font-family: $fuenteTitulo;
+    font-weight: bolder;
+    font-size: $sizeh2;
+    margin-bottom: 0px;
+}
+
+p {
+    text-align: center;
+    font-family: $fuenteParrafo;
+    font-size: $sizeParrafo;
+    margin: 0;
+}
+
+section {
+    margin-top: 5px;
 }
 
 /* rx */
 
-h2{
-    text-align: center;
-}
-
-p{ 
-    font-family: $fuenteParrafo;
-    font-size: $fuenteParrafo;
-}
-
 .carousel-inner {
     max-height: 24rem;
     border-radius: 20px;
+
+}
+
+/* sol */
+
+.card {
+    border: solid 3px gray;
+    border-style: double;
+    transition: all 0.4s;
+
+    &:hover {
+        transform: scale(1.1);
+
+        .card-body {
+            background-color: rgb(228, 49, 49);
+            margin-bottom: 5px;
+
+            p {
+                font-family: $fuenteParrafo;
+                background-color: white;
+            }
+        }
+    }
 }
 
 
@@ -48,13 +85,6 @@ p{
 
 
 
-
-
-h2 {
-    font-family: $fuenteTitulo;
-    font-weight: bolder;
-    font-size: 40px !important;  
-}
 
 
 
@@ -73,7 +103,7 @@ p {
 
 
 
-/* ======= sol ======== */
+/* ======= sol ======== 
 
 .card {
     transition: all 0.3s;
@@ -81,7 +111,7 @@ p {
     &:hover {
         transform: scale(1.1);
     }
-}
+}*/
 
 /* ======= form ======== */
 #nosotros {
@@ -89,4 +119,3 @@ p {
     border: solid 5px rgb(228, 48, 49);
     border-radius: 15px;
 }
-
