@@ -27,8 +27,7 @@ nav {
     }
 }
 
-/* h2 - p - Section */
-
+/* ajustes de todos los h2 - p - section */
 h2 {
     text-align: center;
     font-family: $fuenteTitulo;
@@ -45,11 +44,10 @@ p {
 }
 
 section {
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 /* rx */
-
 .carousel-inner {
     max-height: 24rem;
     border-radius: 20px;
@@ -57,7 +55,6 @@ section {
 }
 
 /* sol */
-
 .card {
     border: solid 3px gray;
     border-style: double;
@@ -79,7 +76,6 @@ section {
 }
 
 /* lc */
-
 .lc--p {
     @extend p; 
     & {
@@ -88,6 +84,11 @@ section {
         font-size: 20px;
     }    
 }
+#lc{
+    .text {
+        margin-bottom: 10px;
+    }
+}
 
 #lc {
     img {
@@ -95,9 +96,22 @@ section {
     }
 }
 
+/* promos */
+
+
+
+
+
+
+/* contacto */
+#nosotros {
+    padding: 15px;
+    border: solid 5px rgb(59, 20, 133);
+    border-radius: 15px;
+}
+
 
 /* foo */
-
 .foo--p {
     @extend .lc--p;
     & {
@@ -138,8 +152,3 @@ p {
 }*/
 
 /* ======= form ======== */
-#nosotros {
-    padding: 15px;
-    border: solid 5px rgb(228, 48, 49);
-    border-radius: 15px;
-}

@@ -1,5 +1,5 @@
 /* import */
-/* fuentes */
+/* variables */
 /* media queries md - 768px */
 @media (min-width: 768px) {
   .card {
@@ -30,7 +30,7 @@ nav {
     color: white;
     font-weight: bold; }
 
-/* h2 - p - Section */
+/* ajustes de todos los h2 - p - section */
 h2 {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif !important;
@@ -45,7 +45,7 @@ p, .lc--p, .foo--p {
   margin: 0; }
 
 section {
-  margin-top: 5px; }
+  margin-top: 20px; }
 
 /* rx */
 .carousel-inner {
@@ -72,8 +72,17 @@ section {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px; }
 
+#lc .text {
+  margin-bottom: 10px; }
+
 #lc img {
   border-radius: 10px; }
+
+/* promos */
+#nosotros {
+  padding: 15px;
+  border: solid 5px #3b1485;
+  border-radius: 15px; }
 
 /* foo */
 .foo--p {
@@ -98,7 +107,3 @@ p {
     }
 }*/
 /* ======= form ======== */
-#nosotros {
-  padding: 15px;
-  border: solid 5px #e43031;
-  border-radius: 15px; }
