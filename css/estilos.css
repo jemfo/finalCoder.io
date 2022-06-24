@@ -79,32 +79,15 @@ section {
   border-radius: 10px; }
 
 /* promos */
+#promos .text {
+  margin-bottom: 10px; }
+
 /* contacto */
 #nosotros {
   padding: 15px;
-  border: solid 5px #3b1485;
+  border: solid 5px #e43131;
   border-radius: 15px; }
 
 /* foo */
 .foo--p {
   padding-left: 15px; }
-
-/*.titulo {
-    font-family: $fuenteTitulo;
-    font-weight: bold;
-    font-size: 40px !important;
-}
-
-p {
-    font-family: $fuenteParrafo;
-}*/
-/* ======= sol ======== 
-
-.card {
-    transition: all 0.3s;
-
-    &:hover {
-        transform: scale(1.1);
-    }
-}*/
-/* ======= form ======== */

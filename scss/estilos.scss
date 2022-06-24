@@ -98,15 +98,16 @@ section {
 
 /* promos */
 
-
-
-
-
+#promos{
+    .text {
+        margin-bottom: 10px;
+    }
+}
 
 /* contacto */
 #nosotros {
     padding: 15px;
-    border: solid 5px rgb(59, 20, 133);
+    border: solid 5px rgb(228, 49, 49);
     border-radius: 15px;
 }
 
@@ -120,35 +121,3 @@ section {
 }
 
 
-
-
-
-
-
-
-
-
-
-/*.titulo {
-    font-family: $fuenteTitulo;
-    font-weight: bold;
-    font-size: 40px !important;
-}
-
-p {
-    font-family: $fuenteParrafo;
-}*/
-
-
-
-/* ======= sol ======== 
-
-.card {
-    transition: all 0.3s;
-
-    &:hover {
-        transform: scale(1.1);
-    }
-}*/
-
-/* ======= form ======== */
